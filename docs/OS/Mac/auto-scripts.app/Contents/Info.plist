@@ -36,7 +36,7 @@
 	<key>NSContactsUsageDescription</key>
 	<string>This script needs access to your contacts to run.</string>
 	<key>NSHomeKitUsageDescription</key>
-	<string>This script needs access to your HomeKit Home to run.</string>
+	<string>This script needs access to your HomeKit Index to run.</string>
 	<key>NSMicrophoneUsageDescription</key>
 	<string>This script needs access to your microphone to run.</string>
 	<key>NSPhotoLibraryUsageDescription</key>
