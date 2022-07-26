@@ -1,37 +1,5 @@
 # vscode extensions howto
 
-- [markdown extensions selection](#markdown-extensions-selection)
-    - [★★★ `Markdown All in One`](#-markdown-all-in-one)
-    - [★★★ `Markdown Image`](#-markdown-image)
-        - [usage of `Markdown Image`](#usage-of-markdown-image)
-        - [advantages of `Markdown Image`](#advantages-of-markdown-image)
-        - [disadvantages of `Markdown IMage`](#disadvantages-of-markdown-image)
-        - [dependencies of `Markdown Preview Extended (MPE)`: `princes`](#dependencies-of-markdown-preview-extended-mpe-princes)
-        - [advantages of `Markdown Preview Enhanced`](#advantages-of-markdown-preview-enhanced)
-    - [★★★ `Markdown Preview Enhanced`](#-markdown-preview-enhanced)
-        - [custom-css_for-sidebar(toc)-wider](#custom-css_for-sidebartoc-wider)
-        - [export pdf via chrome](#export-pdf-via-chrome)
-    - [★★★ `Markdown Lint`](#-markdown-lint)
-        - [advantages](#advantages)
-        - [configurations](#configurations)
-    - [:x: `Markdown PDF`](#x-markdown-pdf)
-    - [:x: Markdown Extended](#x-markdown-extended)
-    - [:x: Markdown Notes](#x-markdown-notes)
-- [extension:Todo-Tree](#extensiontodo-tree)
-    - [usage](#usage)
-    - [configuration](#configuration)
-    - [effect](#effect)
-- [extension:markdown-preview-enhanced](#extensionmarkdown-preview-enhanced)
-    - [change pdf output style, e.g. prince font](#change-pdf-output-style-eg-prince-font)
-- [extension:markdown-pdf](#extensionmarkdown-pdf)
-    - [how to use custom styles in markdown-pdf](#how-to-use-custom-styles-in-markdown-pdf)
-- [extension:markdown-image](#extensionmarkdown-image)
-    - [diy the image path](#diy-the-image-path)
-    - [TODO: Script of migrating all the images in different sub-folders everywhere to the central image asserts directory](#todo-script-of-migrating-all-the-images-in-different-sub-folders-everywhere-to-the-central-image-asserts-directory)
-- [FIXED: markdown image links invalid](#fixed-markdown-image-links-invalid)
-- [FIXED: markdown containers support](#fixed-markdown-containers-support)
-
-
 ## markdown extensions selection
 
 ### ★★★ `Markdown All in One`
@@ -219,7 +187,7 @@ and we can get all the fonts supported in our system via built-in software of `f
 
 ![picture 7](https://mark-vue-oss.oss-cn-hangzhou.aliyuncs.com/vscode-extensions-howto-1657619166108-2ee585b98c32128bd48bc08aab71f43fc1f6167353e8aba8c6795fa8ddc40132.png)  
 
-[^custom-MPE-pdf-output-style]: [markdown-preview-enhanced/customize-css.md at master · shd101wyy/markdown-preview-enhanced](https://github.com/shd101wyy/markdown-preview-enhanced/blob/master/docs/customize-css.md)
+[^custom-MPE-pdf-output-style]: [shd101wyy/markdown-preview-enhanced](https://github.com/shd101wyy/markdown-preview-enhanced/blob/master/docs/customize-css.md)
 
 ## extension:markdown-pdf
 
