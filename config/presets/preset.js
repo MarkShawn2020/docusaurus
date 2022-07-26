@@ -7,21 +7,35 @@ const math = require('remark-math');
 const katex = require('rehype-katex');
 
 
-const docs/*preset of docs*/ = {
-    remarkPlugins: [require('mdx-mermaid')],
+/**
+ * @ref https://docusaurus.io/docs/api/plugins/@docusaurus/plugin-content-docs
+ * @type {import('@docusaurus/plugin-content-docs').PluginOptions }
+ */
+const docs = {
     sidebarPath: require.resolve('./sidebars.js'),
-    editUrl,
+    // if enabled, the `editLocalizedFiles` would be invalid
+    editUrl: 'https://github.com/markshawn2020/docusaurus/edit/master',
+    // enable local edit, ref: https://docusaurus.io/docs/api/plugins/@docusaurus/plugin-content-docs#configuration
+    editLocalizedFiles: true,
+    editCurrentVersion: true,
     // configure version, ref: https://docusaurus.io/docs/versioning#configuring-versioning-behavior
-    lastVersion: 'current',
+    disableVersioning: false,
+    lastVersion: 'current', // must be in ['current', ...VALID_VERSIONS]
     versions: {
         current: {
             label: versions[0] + '+',
-            path: versions[0] + "+"
+            // path: versions[0] + "+"
         },
     },
-    path: 'docs',
-    remarkPlugins: [math],
-    rehypePlugins: [katex],
+    showLastUpdateTime: true,
+
+    remarkPlugins: [
+        require('mdx-mermaid'),
+        math
+    ],
+    rehypePlugins: [
+        katex
+    ],
 }
 
 const blog/*preset of blog*/ = {
@@ -33,6 +47,13 @@ const theme/*preset of theme*/ = {
     customCss: require.resolve('./theme.css'),
 }
 
-const preset = { docs, blog, theme }
+const preset = {
+    docs,
+    blog,
+    theme,
+
+    // ref: https://docusaurus.io/docs/api/plugins/@docusaurus/plugin-debug#ex-config
+    // debug: true
+}
 
 module.exports = preset

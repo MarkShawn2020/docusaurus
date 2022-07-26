@@ -2,8 +2,14 @@
 
 This website is built using [Docusaurus 2](https://docusaurus.io/), a modern static website generator.
 
+## TODO
+
+- [ ] 实现 live-edit，参考：
+    - https://docusaurus.io/feature-requests/p/make-content-editing-easier 
+
 ## History
 
+- [x] 2022-07-26, Tue，配置了 version，研究了 live-edit （未找到最优方案）
 - [x] 2022-07-26, Tue，将 `docusaurus.config.js` 按模块拆分，使工程配置更清晰
 
 ## Development
@@ -31,6 +37,12 @@ USE_SSH=true yarn deploy
 # If you are using GitHub pages for hosting, this command is a convenient way to build the website and push to the `gh-pages` branch.
 GIT_USER=<Your GitHub username> yarn deploy
 ```
+
+## config
+
+### plugin
+
+- plugin of doc: https://docusaurus.io/docs/api/plugins/@docusaurus/plugin-content-docs
 
 ## Others
 
