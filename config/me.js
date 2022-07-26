@@ -9,4 +9,11 @@ const me = {
     projectName: 'docusaurus', // Usually your repo name.
 }
 
-module.exports = me
+const getGithubRepoUrl = () => {
+    return `https://github.com/${me.organizationName}/${me.projectName}`
+}
+
+module.exports = {
+    me,
+    getGithubRepoUrl
+}

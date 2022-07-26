@@ -3,7 +3,7 @@ import useDocusaurusContext from "@docusaurus/useDocusaurusContext";
 import clsx from "clsx";
 import React from "react";
 
-import styles from "@site/src/components/HomePageHeader.module.css";
+import styles from "@site/src/pages/home/HomePageHeader.module.css";
 
 export function HomepageHeader() {
     const {siteConfig} = useDocusaurusContext();
@@ -15,7 +15,7 @@ export function HomepageHeader() {
                 <div className={styles.buttons}>
                     <Link
                         className="button button--secondary button--lg"
-                        to="/docs/index">
+                        to="/docs">
                         Who am I - 5min ⏱️
                     </Link>
                 </div>

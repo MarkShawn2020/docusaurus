@@ -75,14 +75,6 @@ ref:
 sudo apt-get install qt5-qmake qt5-default libqglviewer-dev-qt5 libsuitesparse-dev libcxsparse3 libcholmod3
 ```
 
-## slambook2_theoretical-part
-
-see: [slambook2_theoretical-part](slambook2_theoretical-part.md)
-
-## slambook2_coding-part
-
-see: [slambook2_coding-part](slambook2_coding-part.md)
-
 ## business problems
 
 ## review

@@ -50,7 +50,7 @@ const footer = {
                     href: 'https://github.com/facebook/docusaurus',
                 },
                 {
-                    label: 'documentation',
+                    label: 'Documentation',
                     href: 'https://docusaurus.io/docs/category/guides'
                 }
             ],
