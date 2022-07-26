@@ -4,15 +4,11 @@ sidebar_position: 1
 
 # Keep Learning (V0.15.43)
 
-- [Background](#background)
-- [Environment (not necessary)](#environment-not-necessary)
-- [Project Contents](#project-contents)
-
 ## Background
 
-我认为集中化管理、持续更新工作笔记，长期来看，是有所益的。
+Keep learning, keep foolish.
 
-## Environment (not necessary)
+## Environment
 
 1. zsh(`zsh --version`): zsh 5.8 (x86_64-apple-darwin20.0)
 2. vscode(`code --version | tr "\n" " "`): 1.63.2 899d46d82c4c95423fb7e10e68eba52050e30ba3 x64
