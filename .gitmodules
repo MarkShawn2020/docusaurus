@@ -1,0 +1,3 @@
+[submodule "scripts/my-pdf-parser"]
+	path = scripts/my-pdf-parser
+	url = https://github.com/my-app-playground/my-pdf-parser

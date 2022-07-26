@@ -6,7 +6,7 @@ sidebar_position: 1
 
 ## Background
 
-Keep learning, keep foolish.
+> Keep learning, keep foolish.
 
 ## Environment
 
