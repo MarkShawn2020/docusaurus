@@ -1,4 +1,4 @@
-# A01: 寻找光点
+# A01: recognize lights
 
 ## 目标
 

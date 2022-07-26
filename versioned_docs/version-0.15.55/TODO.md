@@ -1,50 +1,5 @@
 # todo relative
 
-- [Learning](#learning)
-- [Projects](#projects)
-    - [ttf2bmf 后端](#ttf2bmf-后端)
-    - [音乐聚合软件](#音乐聚合软件)
-    - [★★★★★ markdown实时渲染引擎（marked + webpack + iframe ？）从而允许开发模式下将微信公众号排版做好，即一款可以展示环境配置（尤其是全局和局部镜像源）的gui（参考baobab）](#-markdown实时渲染引擎marked--webpack--iframe-从而允许开发模式下将微信公众号排版做好即一款可以展示环境配置尤其是全局和局部镜像源的gui参考baobab)
-    - [★★★★★ 聚合搜索，同时展示google、github、搜索微信、知乎的搜索结果](#-聚合搜索同时展示googlegithub搜索微信知乎的搜索结果)
-    - [★★★ 支持跳转的拓扑知识网络可视化系统](#-支持跳转的拓扑知识网络可视化系统)
-    - [★★★★ 豆瓣租房油猴脚本](#-豆瓣租房油猴脚本)
-    - [vscode relative](#vscode-relative)
-        - [TODO: vscode markdown synchronized scroll algorithm](#todo-vscode-markdown-synchronized-scroll-algorithm)
-        - [TODO: vscode python auto-import `pprint`](#todo-vscode-python-auto-import-pprint)
-        - [TODO: VSCode-ConditionalCommentCursorDown](#todo-vscode-conditionalcommentcursordown)
-        - [TODO: VSCode-AutoCompletion-ForHeadingsOfOtherFiles](#todo-vscode-autocompletion-forheadingsofotherfiles)
-    - [OS relative](#os-relative)
-        - [Mac Dictionary add more powerful chinese translation (from chinese to english)](#mac-dictionary-add-more-powerful-chinese-translation-from-chinese-to-english)
-    - [基于 b-ok 实现 online reader](#基于-b-ok-实现-online-reader)
-    - [参考 http://videolectures.net/nipsworkshops2010_urtasun_gpv/ 实现字幕与视频联动](#参考-httpvideolecturesnetnipsworkshops2010_urtasun_gpv-实现字幕与视频联动)
-    - [TODO: 电商分析系统](#todo-电商分析系统)
-    - [TODO: 超级账本 (need root)](#todo-超级账本-need-root)
-    - [TODO: IMPORTANT: 全平台发布](#todo-important-全平台发布)
-- [Articles](#articles)
-    - [TODO: 博客生成工具对比](#todo-博客生成工具对比)
-    - [TODO: ASCII ART](#todo-ascii-art)
-    - [TODO: about remark](#todo-about-remark)
-    - [TODO: alfred](#todo-alfred)
-    - [The World From A Coder's Eye](#the-world-from-a-coders-eye)
-- [History](#history)
-    - [FIXED: vscode markdown container support](#fixed-vscode-markdown-container-support)
-    - [FIXED: vscode lag when input](#fixed-vscode-lag-when-input)
-    - [FIXED: VSCode-md-flex](#fixed-vscode-md-flex)
-    - [FIXED: vscode markdown image upload (finished: 2022-01-06)](#fixed-vscode-markdown-image-upload-finished-2022-01-06)
-    - [CLOSED_SINCE_ENOUGH: 梳理markdown的工作流，理出最佳实践，实现每个环节](#closed_since_enough-梳理markdown的工作流理出最佳实践实现每个环节)
-    - [CLOSED_SINCE_TOO_EARLY: 写一本书，从前端到后端到算法（南川从0到1编程开发串讲，配套视频）](#closed_since_too_early-写一本书从前端到后端到算法南川从0到1编程开发串讲配套视频)
-        - [SOLVED: 控制mkl仓库的体积](#solved-控制mkl仓库的体积)
-    - [CLOSED_SINCE_NOT_FOCUSED: change `index.yaml` to be `index.md`](#closed_since_not_focused-change-indexyaml-to-be-indexmd)
-    - [CLOSED_SINCE_NOT_FOCUSED: 王者荣耀自动系统](#closed_since_not_focused-王者荣耀自动系统)
-    - [CLOSED_SINCE_OUT_OF_DATED: add color support for `build/init.zsh`](#closed_since_out_of_dated-add-color-support-for-buildinitzsh)
-    - [CLOSED_SINCE_NOT_FOCUSED: Prisma is not suitable for electron](#closed_since_not_focused-prisma-is-not-suitable-for-electron)
-    - [CLOSED_SINCE_NOT_FOCUSED: LinkToText](#closed_since_not_focused-linktotext)
-    - [SOLVED: change the default TOC config of `depth_from` from 1 to 2, of `depth_to` from 6 to 4](#solved-change-the-default-toc-config-of-depth_from-from-1-to-2-of-depth_to-from-6-to-4)
-    - [修复git仓库、删除MP4 (finished, 2022-06-20, Mon)](#修复git仓库删除mp4-finished-2022-06-20-mon)
-    - [shortcuts comparison(finished)](#shortcuts-comparisonfinished)
-    - [linux core intro (finished, 2022-02-04)](#linux-core-intro-finished-2022-02-04)
-    - [adobe photoshop export (disappeared, 2022-06-20, Mon)](#adobe-photoshop-export-disappeared-2022-06-20-mon)
-
 ## Learning
 
 - [GAMES101-现代计算机图形学入门-闫令琪_哔哩哔哩_bilibili](https://www.bilibili.com/video/BV1X7411F744/)
@@ -131,8 +86,6 @@ refer:
 ## History
 
 ### FIXED: vscode markdown container support
-
-ref: [the recommended solution for markdown containers support](../../readme.md#the-recommended-solution-for-markdown-containers-support)
 
 ### FIXED: vscode lag when input
 
