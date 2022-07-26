@@ -85,8 +85,6 @@ refer:
 
 ### TODO: alfred
 
-### [The World From A Coder's Eye](mark_notes/mark-theWorldFromACoder'sEye.md)
-
 ## History
 
 ### FIXED: vscode markdown container support
@@ -117,7 +115,7 @@ I would first try some time without it.
 
 finished: 2022-01-06
 
-see: [md_img_handler](/Users/mark/Documents/mark_keeps_learning/MarkScripts/md_img_handler)
+see: script of md_img_handler (now maybe under image-playgrounds)
 
 
 ### CLOSED_SINCE_ENOUGH: 梳理markdown的工作流，理出最佳实践，实现每个环节

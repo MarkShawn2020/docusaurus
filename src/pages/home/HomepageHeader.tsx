@@ -23,3 +23,5 @@ export function HomepageHeader() {
         </header>
     );
 }
+
+export default HomepageHeader

@@ -1,13 +1,8 @@
 # arpara vr logic
 
-1. [anti-distortion: implementation](#anti-distortion-implementation)
-2. [data](#data)
-    1. [package names](#package-names)
-3. [info](#info)
-
 ## anti-distortion: implementation
 
-我们需要生成一个$(100+1)^2*2$的mesh网，这由我司内部生成，文件分别为 `HmdTypeXXXDistortionMesh.*`
+我们需要生成一个 $(100+1)^2*2$ 的mesh网，这由我司内部生成，文件分别为 `HmdTypeXXXDistortionMesh.*`
 ，目前 `XXX=8`。
 
 生成算法与 `opengl` 三角型绘制原理有关，并且需要综合眼镜焦距、分辨率等进行调整，此处不展开。
@@ -57,7 +52,7 @@ direction TB
     Layer::isArparaVrEnv["logic of Layer::isArparaVrEnv:\nThe activity name of layer\nincludes one of the following:\n1. 'com.XR.LeadingIdeal' for release\n2.'com.arpara.vr.sample' for debug"]
 
     --> 
-    isTimewarpEnabled["logic of ProgramCache::isArparaTimewarpEnabled:\n`(mKey & ARPARA_MASK) == ARPARA_ON`"]
+    isTimewarpEnabled["logic of ProgramCache::isArparaTimewarpEnabled:\n\`(mKey & ARPARA_MASK) == ARPARA_ON\`"]
 end
 
 subgraph initLayer[Layer::Layer]
@@ -108,7 +103,7 @@ direction TB
     --> setUniform["Program::setUniforms(mState.arparaTimewarpMatrix)"]
     --> generateVertexShader["ProgramCache::generateVertexShader(ARPARA_SHADER)"]
 
-    enableTimewarp[mState.arparaTimewarpEnable \n= mArparaVrEnv]
+    enableTimewarp["mState.arparaTimewarpEnable \n= mArparaVrEnv"]
     --> calculateNeeds["ProgramCache::computeKey\n(mState.arparaTimewarpEnable)"]
     -- Key::ARPARA_ON --> setUniform
 end
