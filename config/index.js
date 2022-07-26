@@ -7,5 +7,5 @@ module.exports = {
     me,
     i18n,
     themeConfig,
-    presets
+    presets,
 }

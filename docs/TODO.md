@@ -132,8 +132,6 @@ refer:
 
 ### FIXED: vscode markdown container support
 
-ref: [the recommended solution for markdown containers support](../../readme.md#the-recommended-solution-for-markdown-containers-support)
-
 ### FIXED: vscode lag when input
 
 I find this problem is concerned with this plugin.

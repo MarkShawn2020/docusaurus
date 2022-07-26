@@ -11,6 +11,7 @@ const config = {
     i18n,
     presets,
     themeConfig,
+    
 }
 
 module.exports = config;
