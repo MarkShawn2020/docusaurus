@@ -10,7 +10,7 @@ const docs/*preset of docs*/ = {
     // Please change this to your repo.
     // Remove this to remove the "edit this page" links.
     editUrl:
-        'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+        'https://github.com/markshawn2020/docusaurus/tree/master/packages/create-docusaurus/templates/shared/',
 }
 
 const blog/*preset of blog*/ = {
@@ -18,7 +18,7 @@ const blog/*preset of blog*/ = {
     // Please change this to your repo.
     // Remove this to remove the "edit this page" links.
     editUrl:
-        'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+        'https://github.com/markshawn2020/docusaurus/tree/master/packages/create-docusaurus/templates/shared/',
 }
 
 const theme/*preset of theme*/ = {
