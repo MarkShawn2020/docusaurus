@@ -1,4 +1,3 @@
-# learning slambook2
 
 ## 3rdparty
 

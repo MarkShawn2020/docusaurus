@@ -11,7 +11,7 @@ const footer = {
                     label: 'Docs',
                     to: '/docs/index',
                 },
-                                {
+                {
                     label: 'Blog',
                     to: '/blog',
                 },

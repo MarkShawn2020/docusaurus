@@ -1,4 +1,3 @@
-# slam-research
 
 ## logic
 

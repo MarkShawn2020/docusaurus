@@ -1,4 +1,3 @@
-# slambook2 - ch13
 
 ## 准备
 

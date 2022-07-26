@@ -13,7 +13,17 @@ const getGithubRepoUrl = () => {
     return `https://github.com/${me.organizationName}/${me.projectName}`
 }
 
+/**
+ * Please change this to your repo.
+ * Remove this to remove the "edit this page" links.
+ * @returns 
+ */
+const getGithubEditUrl = () => {
+    return getGithubRepoUrl() + '/edit/master/'
+}
+
 module.exports = {
     me,
-    getGithubRepoUrl
+    getGithubRepoUrl,
+    getGithubEditUrl
 }
