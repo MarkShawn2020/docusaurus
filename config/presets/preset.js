@@ -5,7 +5,9 @@ const editUrl = 'https://github.com/MarkShawn2020/docusaurus/edit/master/'
 const docs/*preset of docs*/ = {
     remarkPlugins: [require('mdx-mermaid')],
     sidebarPath: require.resolve('./sidebars.js'),
-    editUrl
+    editUrl,
+    // configure version, ref: https://docusaurus.io/docs/versioning#configuring-versioning-behavior
+    lastVersion: 'current',
 }
 
 const blog/*preset of blog*/ = {

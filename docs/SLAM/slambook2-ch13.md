@@ -1,21 +1,5 @@
 # slambook2 - ch13
 
-- [准备](#准备)
-    - [解决编译问题](#解决编译问题)
-    - [kiti数据集准备](#kiti数据集准备)
-    - [运行`run_kitti_stereo`](#运行run_kitti_stereo)
-- [理解](#理解)
-    - [`run_kitti_stereo.cpp` 中 `DEFINE_string` 和 `google::ParseCommandLineFlags` 的用意](#run_kitti_stereocpp-中-define_string-和-googleparsecommandlineflags-的用意)
-    - [读取配置文件的过程](#读取配置文件的过程)
-    - [数据集初始化过程](#数据集初始化过程)
-    - [相机的初始化](#相机的初始化)
-    - [跑图 - 数据集遍历](#跑图---数据集遍历)
-    - [跑图 - 前端帧处理](#跑图---前端帧处理)
-- [测试与实现](#测试与实现)
-    - [发现1：ch13的代码检测特征点的办法不符合我们的场景需求](#发现1ch13的代码检测特征点的办法不符合我们的场景需求)
-- [其他](#其他)
-    - [如何 debug](#如何-debug)
-
 ## 准备
 
 ### 解决编译问题
