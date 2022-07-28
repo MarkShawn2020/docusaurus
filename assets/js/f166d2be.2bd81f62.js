@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkmy_website=self.webpackChunkmy_website||[]).push([[3083],{38853:e=>{e.exports=JSON.parse('{"label":"MBTI","permalink":"/keeps-learning/blog/tags/mbti","allTagsPath":"/keeps-learning/blog/tags","count":1}')}}]);

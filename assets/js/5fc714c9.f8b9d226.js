@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkmy_website=self.webpackChunkmy_website||[]).push([[722],{9859:e=>{e.exports=JSON.parse('{"permalink":"/keeps-learning/blog/tags/\u672d\u8bb0/page/2","page":2,"postsPerPage":5,"totalPages":2,"totalCount":9,"previousPage":"/keeps-learning/blog/tags/\u672d\u8bb0","blogDescription":"A Docusaurus powered blog!","blogTitle":"Blog"}')}}]);

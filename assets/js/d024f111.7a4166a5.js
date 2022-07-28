@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkmy_website=self.webpackChunkmy_website||[]).push([[6561],{47321:e=>{e.exports=JSON.parse('{"permalink":"/keeps-learning/blog/tags/linux","page":1,"postsPerPage":5,"totalPages":1,"totalCount":1,"blogDescription":"A Docusaurus powered blog!","blogTitle":"Blog"}')}}]);
