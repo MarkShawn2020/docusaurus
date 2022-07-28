@@ -1,0 +1,6 @@
+/*!
+ * Simple-Pinyin 4.0.0,
+ * Copyright @ XQ Kuang <x@kxq.io>, All rights reserved.
+ * 
+ * Licensed under the MIT License.
+ **/
