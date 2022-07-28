@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkmy_website=self.webpackChunkmy_website||[]).push([[9969],{42243:e=>{e.exports=JSON.parse('{"permalink":"/keeps-learning/blog/tags/go-pro","page":1,"postsPerPage":5,"totalPages":1,"totalCount":2,"blogDescription":"A Docusaurus powered blog!","blogTitle":"Blog"}')}}]);

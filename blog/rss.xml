@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/">
     <channel>
         <title>南川笔记 Blog</title>
-        <link>https://markshawn2020.github.io/keeps-learning/blog</link>
+        <link>https://markshawn2020.github.io/blog</link>
         <description>南川笔记 Blog</description>
         <lastBuildDate>Mon, 11 Jul 2022 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
@@ -10,7 +10,7 @@
         <language>zh-Hans</language>
         <item>
             <title><![CDATA[札记 | 我与我周旋久，我亦是我]]></title>
-            <link>https://markshawn2020.github.io/keeps-learning/blog/2022/07/11/archive/prose-I-am-me</link>
+            <link>https://markshawn2020.github.io/blog/2022/07/11/archive/prose-I-am-me</link>
             <guid>/2022/07/11/archive/prose-I-am-me</guid>
             <pubDate>Mon, 11 Jul 2022 00:00:00 GMT</pubDate>
             <description><![CDATA[xxx]]></description>
@@ -19,7 +19,7 @@
         </item>
         <item>
             <title><![CDATA[编程 | 使用pandas研究高考志愿填报]]></title>
-            <link>https://markshawn2020.github.io/keeps-learning/blog/2022/07/02/archive/dev-gaokao</link>
+            <link>https://markshawn2020.github.io/blog/2022/07/02/archive/dev-gaokao</link>
             <guid>/2022/07/02/archive/dev-gaokao</guid>
             <pubDate>Sat, 02 Jul 2022 00:00:00 GMT</pubDate>
             <description><![CDATA[近日，我叔为我弟高考志愿填报的事情焦头烂额。（江苏高考志愿填报竟然能多达40个了，你敢信！）]]></description>
@@ -30,7 +30,7 @@
         </item>
         <item>
             <title><![CDATA[编程 | GoPro 02: 玩转 OpenLab]]></title>
-            <link>https://markshawn2020.github.io/keeps-learning/blog/2022/06/16/archive/dev-gopro-2</link>
+            <link>https://markshawn2020.github.io/blog/2022/06/16/archive/dev-gopro-2</link>
             <guid>/2022/06/16/archive/dev-gopro-2</guid>
             <pubDate>Thu, 16 Jun 2022 00:00:00 GMT</pubDate>
             <description><![CDATA[1. 方案1：物理手段解决]]></description>
@@ -40,7 +40,7 @@
         </item>
         <item>
             <title><![CDATA[编程 | GoPro 01: 全天候自动4K延时摄影]]></title>
-            <link>https://markshawn2020.github.io/keeps-learning/blog/2022/06/11/archive/dev-gopro-1</link>
+            <link>https://markshawn2020.github.io/blog/2022/06/11/archive/dev-gopro-1</link>
             <guid>/2022/06/11/archive/dev-gopro-1</guid>
             <pubDate>Sat, 11 Jun 2022 00:00:00 GMT</pubDate>
             <description><![CDATA[背景]]></description>
@@ -51,7 +51,7 @@
         </item>
         <item>
             <title><![CDATA[编程 | iOS 自动化实现王者荣耀一键换装]]></title>
-            <link>https://markshawn2020.github.io/keeps-learning/blog/2022/06/06/archive/dev-ios-automation</link>
+            <link>https://markshawn2020.github.io/blog/2022/06/06/archive/dev-ios-automation</link>
             <guid>/2022/06/06/archive/dev-ios-automation</guid>
             <pubDate>Mon, 06 Jun 2022 00:00:00 GMT</pubDate>
             <description><![CDATA[1. 概要]]></description>
@@ -66,7 +66,7 @@
         </item>
         <item>
             <title><![CDATA[编程 | 逼哥的音乐元数据修复]]></title>
-            <link>https://markshawn2020.github.io/keeps-learning/blog/2022/05/23/archive/dev-mp3-meta</link>
+            <link>https://markshawn2020.github.io/blog/2022/05/23/archive/dev-mp3-meta</link>
             <guid>/2022/05/23/archive/dev-mp3-meta</guid>
             <pubDate>Mon, 23 May 2022 00:00:00 GMT</pubDate>
             <description><![CDATA[picture 1]]></description>
@@ -76,7 +76,7 @@
         </item>
         <item>
             <title><![CDATA[评测 | Breo Dream6 按摩仪]]></title>
-            <link>https://markshawn2020.github.io/keeps-learning/blog/2022/05/22/archive/evaluation-breo-dream6</link>
+            <link>https://markshawn2020.github.io/blog/2022/05/22/archive/evaluation-breo-dream6</link>
             <guid>/2022/05/22/archive/evaluation-breo-dream6</guid>
             <pubDate>Sun, 22 May 2022 00:00:00 GMT</pubDate>
             <description><![CDATA[最近试用了三款按摩/睡眠仪，写一写使用体验。]]></description>
@@ -86,7 +86,7 @@
         </item>
         <item>
             <title><![CDATA[札记 | 须知，活好是很不容易的]]></title>
-            <link>https://markshawn2020.github.io/keeps-learning/blog/2022/05/15/archive/prose-is-not-easy</link>
+            <link>https://markshawn2020.github.io/blog/2022/05/15/archive/prose-is-not-easy</link>
             <guid>/2022/05/15/archive/prose-is-not-easy</guid>
             <pubDate>Sun, 15 May 2022 00:00:00 GMT</pubDate>
             <description><![CDATA[须知，活好是很不容易的。]]></description>
@@ -95,7 +95,7 @@
         </item>
         <item>
             <title><![CDATA[编程 | 视频剪辑自动转写字幕]]></title>
-            <link>https://markshawn2020.github.io/keeps-learning/blog/2022/05/14/archive/dev-voice2srt</link>
+            <link>https://markshawn2020.github.io/blog/2022/05/14/archive/dev-voice2srt</link>
             <guid>/2022/05/14/archive/dev-voice2srt</guid>
             <pubDate>Sat, 14 May 2022 00:00:00 GMT</pubDate>
             <description><![CDATA[1. 语音转写市场概览]]></description>
@@ -105,7 +105,7 @@
         </item>
         <item>
             <title><![CDATA[研究 | 基于MBTI的人生复盘与计划（上）]]></title>
-            <link>https://markshawn2020.github.io/keeps-learning/blog/2022/04/22/archive/research-mbti/mark_mbti</link>
+            <link>https://markshawn2020.github.io/blog/2022/04/22/archive/research-mbti/mark_mbti</link>
             <guid>/2022/04/22/archive/research-mbti/mark_mbti</guid>
             <pubDate>Fri, 22 Apr 2022 00:00:00 GMT</pubDate>
             <description><![CDATA[很久以前就知道这个测试，但一直都没重视。]]></description>
@@ -117,7 +117,7 @@
         </item>
         <item>
             <title><![CDATA[札记 | 愿逝者安息生者坚强，你我迎风奔跑向阳而生]]></title>
-            <link>https://markshawn2020.github.io/keeps-learning/blog/2022/03/27/archive/prose-321-air-crash</link>
+            <link>https://markshawn2020.github.io/blog/2022/03/27/archive/prose-321-air-crash</link>
             <guid>/2022/03/27/archive/prose-321-air-crash</guid>
             <pubDate>Sun, 27 Mar 2022 00:00:00 GMT</pubDate>
             <description><![CDATA[三月二十一日，于某些人，某些家庭，是一个无法面对的日子。]]></description>
@@ -139,7 +139,7 @@
         </item>
         <item>
             <title><![CDATA[编程 | 北京租房系统设计、研究与经验 0.1.0]]></title>
-            <link>https://markshawn2020.github.io/keeps-learning/blog/2022/03/09/archive/dev-douban-renting</link>
+            <link>https://markshawn2020.github.io/blog/2022/03/09/archive/dev-douban-renting</link>
             <guid>/2022/03/09/archive/dev-douban-renting</guid>
             <pubDate>Wed, 09 Mar 2022 00:00:00 GMT</pubDate>
             <description><![CDATA[通过一天使用程序化手段获取两万多套房源转租信息，继而再通过程序化粗筛成两百多套，紧接着人工细筛出十几套，最后两天内实地考察九套。]]></description>
@@ -150,7 +150,7 @@
         </item>
         <item>
             <title><![CDATA[推广 | 贝壳新业务VR全职开发招募]]></title>
-            <link>https://markshawn2020.github.io/keeps-learning/blog/2022/02/21/archive/ad-beike-hiring</link>
+            <link>https://markshawn2020.github.io/blog/2022/02/21/archive/ad-beike-hiring</link>
             <guid>/2022/02/21/archive/ad-beike-hiring</guid>
             <pubDate>Mon, 21 Feb 2022 00:00:00 GMT</pubDate>
             <description><![CDATA[工作职责]]></description>
@@ -160,7 +160,7 @@
         </item>
         <item>
             <title><![CDATA[札记 | 2022，活着]]></title>
-            <link>https://markshawn2020.github.io/keeps-learning/blog/2022/02/03/archive/prose-living</link>
+            <link>https://markshawn2020.github.io/blog/2022/02/03/archive/prose-living</link>
             <guid>/2022/02/03/archive/prose-living</guid>
             <pubDate>Thu, 03 Feb 2022 00:00:00 GMT</pubDate>
             <description><![CDATA[1. 行动的力量：不要让遗憾永远都只是遗憾]]></description>
@@ -169,7 +169,7 @@
         </item>
         <item>
             <title><![CDATA[编程 | Linux 笔记]]></title>
-            <link>https://markshawn2020.github.io/keeps-learning/blog/2022/02/02/archive/dev-linux</link>
+            <link>https://markshawn2020.github.io/blog/2022/02/02/archive/dev-linux</link>
             <guid>/2022/02/02/archive/dev-linux</guid>
             <pubDate>Wed, 02 Feb 2022 00:00:00 GMT</pubDate>
             <description><![CDATA[很久以前，自打我刚开始学计算机，就有一个认知：精通linux的人都是大神。]]></description>
@@ -200,7 +200,7 @@ y/_/0/</p><div class="codeBlockContainer_Ckt0 theme-code-block" style="--prism-c
         </item>
         <item>
             <title><![CDATA[札记 | 关于近几年的一些感悟]]></title>
-            <link>https://markshawn2020.github.io/keeps-learning/blog/2022/02/01/archive/prose-2022-begining</link>
+            <link>https://markshawn2020.github.io/blog/2022/02/01/archive/prose-2022-begining</link>
             <guid>/2022/02/01/archive/prose-2022-begining</guid>
             <pubDate>Tue, 01 Feb 2022 00:00:00 GMT</pubDate>
             <description><![CDATA[我本来想写挺长的文章。]]></description>
@@ -209,7 +209,7 @@ y/_/0/</p><div class="codeBlockContainer_Ckt0 theme-code-block" style="--prism-c
         </item>
         <item>
             <title><![CDATA[札记 | 一位工程师的自我修养（序）]]></title>
-            <link>https://markshawn2020.github.io/keeps-learning/blog/2022/01/23/archive/prose-engineer-cultivation</link>
+            <link>https://markshawn2020.github.io/blog/2022/01/23/archive/prose-engineer-cultivation</link>
             <guid>/2022/01/23/archive/prose-engineer-cultivation</guid>
             <pubDate>Sun, 23 Jan 2022 00:00:00 GMT</pubDate>
             <description><![CDATA[中午冒险尝试了重庆辣的重庆小面，那个滋味，真地是……]]></description>
@@ -219,7 +219,7 @@ y/_/0/</p><div class="codeBlockContainer_Ckt0 theme-code-block" style="--prism-c
         </item>
         <item>
             <title><![CDATA[札记 | 是的，我入职了]]></title>
-            <link>https://markshawn2020.github.io/keeps-learning/blog/2022/01/20/archive/prose-first-job</link>
+            <link>https://markshawn2020.github.io/blog/2022/01/20/archive/prose-first-job</link>
             <guid>/2022/01/20/archive/prose-first-job</guid>
             <pubDate>Thu, 20 Jan 2022 00:00:00 GMT</pubDate>
             <description><![CDATA[是的，我入职了.]]></description>
@@ -229,7 +229,7 @@ y/_/0/</p><div class="codeBlockContainer_Ckt0 theme-code-block" style="--prism-c
         </item>
         <item>
             <title><![CDATA[札记 | 我的2021：混沌与洞见]]></title>
-            <link>https://markshawn2020.github.io/keeps-learning/blog/2022/01/01/archive/prose-my-2021</link>
+            <link>https://markshawn2020.github.io/blog/2022/01/01/archive/prose-my-2021</link>
             <guid>/2022/01/01/archive/prose-my-2021</guid>
             <pubDate>Sat, 01 Jan 2022 00:00:00 GMT</pubDate>
             <description><![CDATA[在《马男波杰克（Bojack Horseman）》第六季中戴安想写一部有深度的、关于“创伤”的书，书名较长：《One Last Thing and Then I Swear to God I'll Shut Up About This Forever Arguments, Opinions, Reflections, Recollections》，某字幕组将其翻译为：《再说最后一件事，然后我保证再也不提这事：关于我们做出的选择、伤害的人、去过的地方的最后反思》]]></description>
@@ -244,7 +244,7 @@ JavaScript, C++, Java等主流语言的技术树。</p><p>在这些项目中，�
         </item>
         <item>
             <title><![CDATA[编程 | 记与Webpack十二小时的奋战]]></title>
-            <link>https://markshawn2020.github.io/keeps-learning/blog/2021/12/24/archive/dev-webpack</link>
+            <link>https://markshawn2020.github.io/blog/2021/12/24/archive/dev-webpack</link>
             <guid>/2021/12/24/archive/dev-webpack</guid>
             <pubDate>Fri, 24 Dec 2021 00:00:00 GMT</pubDate>
             <description><![CDATA[2021年12月24日]]></description>
