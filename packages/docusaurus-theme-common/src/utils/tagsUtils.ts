@@ -4,10 +4,27 @@
  * This source code is licensed under the MIT license found in the
  * LICENSE file in the root directory of this source tree.
  */
+import axios from 'axios';
 
 import {translate} from '@docusaurus/Translate';
-import {ChineseWord2Pinyin} from './pinyin/src/index';
 import type {TagsListItem} from '@docusaurus/utils';
+
+const LANG_ZH = 'zh-Hans';
+export type LangMap = {[lang: string]: {[char: string]: string[]}};
+let langMap: LangMap = {[LANG_ZH]: {}};
+
+(async () => {
+  console.log(`fetching chinese pinyin dict...`);
+  const result = await axios.get(
+    'https://raw.githubusercontent.com/guoyunhe/pinyin-json/master/hanzi-pinyin-table.json',
+  );
+  langMap = result.data as LangMap;
+  console.log(
+    `fetched chinese pinyin dict with ${
+      Object.keys(langMap).length
+    } characters`,
+  );
+})();
 
 export const translateTagsPageTitle = (): string =>
   translate({
@@ -23,11 +40,11 @@ export type TagLetterEntry = {letter: string; tags: TagsListItem[]};
  * @param tag: the tag of blog
  * @param lang: the potential parameter for accepting lang info from upper-level config
  */
-function getTagLetter(tag: string, lang = 'zh'): string {
+function getTagLetter(tag: string, lang = LANG_ZH): string {
   let tagNormed: string;
   switch (lang) {
-    case 'zh':
-      tagNormed = ChineseWord2Pinyin(tag).join('');
+    case LANG_ZH:
+      tagNormed = langMap[lang]![tag]![0]!;
       break;
     default:
       tagNormed = tag;
