@@ -23,7 +23,7 @@ export type TagLetterEntry = {letter: string; tags: TagsListItem[]};
  * @param tag: the tag of blog
  * @param lang: the potential parameter for accepting lang info from upper-level config
  */
-function getTagLetter(tag: string, lang = 'en'): string {
+function getTagLetter(tag: string, lang = 'zh'): string {
   let tagNormed: string;
   switch (lang) {
     case 'zh':
