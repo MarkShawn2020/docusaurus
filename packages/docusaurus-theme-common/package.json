@@ -48,7 +48,6 @@
   "devDependencies": {
     "@docusaurus/core": "2.0.0-rc.1",
     "@docusaurus/types": "2.0.0-rc.1",
-    "@types/axios": "^0.14.0",
     "fs-extra": "^10.1.0",
     "lodash": "^4.17.21"
   },
