@@ -263,6 +263,14 @@ module.exports = {
           {pattern: '@site/**', group: 'internal'},
           {pattern: '@theme-init/**', group: 'internal'},
           {pattern: '@theme-original/**', group: 'internal'},
+          // always put css import to the last, ref:
+          // https://github.com/import-js/eslint-plugin-import/issues/1239
+          {
+            pattern: '*.+(css|sass|less|scss|pcss|styl)',
+            group: 'unknown',
+            patternOptions: {matchBase: true},
+            position: 'after',
+          },
         ],
         pathGroupsExcludedImportTypes: [],
       },
