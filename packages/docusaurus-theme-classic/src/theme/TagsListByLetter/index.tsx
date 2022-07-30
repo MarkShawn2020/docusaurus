@@ -13,6 +13,7 @@ import type {Props} from '@theme/TagsListByLetter';
 import styles from './styles.module.css';
 import type {CharMap} from '@docusaurus/types';
 
+
 function TagLetterEntryItem({letterEntry}: {letterEntry: TagLetterEntry}) {
   return (
     <article>
