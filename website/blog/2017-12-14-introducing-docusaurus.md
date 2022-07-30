@@ -1,7 +1,7 @@
 ---
 title: Introducing Docusaurus
 authors: JMarcey
-tags: [documentation, blog, docusaurus, 测试]
+tags: [documentation, blog, docusaurus]
 ---
 
 ![Introducing Slash](/img/slash-introducing.svg)
