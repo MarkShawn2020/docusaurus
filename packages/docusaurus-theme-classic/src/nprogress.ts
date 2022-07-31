@@ -5,7 +5,6 @@
  * LICENSE file in the root directory of this source tree.
  */
 
-// none - Import module without exported bindings.
 import nprogress from 'nprogress';
 import type {ClientModule} from '@docusaurus/types';
 

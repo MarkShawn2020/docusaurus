@@ -246,9 +246,7 @@ module.exports = {
           'external',
           'internal',
           ['parent', 'sibling', 'index'],
-          'object',
           'type',
-          'unknown',
         ],
         pathGroups: [
           // always put css import to the last, ref:
