@@ -5,9 +5,11 @@
  * LICENSE file in the root directory of this source tree.
  */
 
+// none - Import module without exported bindings.
 import nprogress from 'nprogress';
-import './nprogress.css';
 import type {ClientModule} from '@docusaurus/types';
+
+import './nprogress.css';
 
 nprogress.configure({showSpinner: false});
 
