@@ -17,18 +17,11 @@ const getGithubRepoUrl = () =>
 const getGithubEditUrl = () => `${getGithubRepoUrl()}/edit/master/`;
 
 async function getLatestVersion() {
-  return new Promise((resolve, reject) => {
-    fs.readFile(
-      path.join(__dirname, '../library/VERSION.txt'),
-      'utf-8',
-      (err, data) => {
-        if (err) {
-          reject(err);
-        }
-        resolve(data.replace(/\s+/g, ''));
-      },
-    );
-  });
+  const s = await fs.readFile(
+    path.join(__dirname, '../library/VERSION.txt'),
+    'utf-8',
+  );
+  return s.replace(/\s+/g, '');
 }
 
 /** @type {Promise<string[]>} */
@@ -38,19 +31,18 @@ async function asyncLoadGallery() {
 
   const films = await fs.readdir(galleryDir, {withFileTypes: true});
   for (let film of films) {
-    console.log(`fetching film of ${film.name}`);
-    if (film.isFile()) {
-      return;
+    if (film.isDirectory()) {
+      const filmDir = path.resolve(galleryDir, film.name);
+      const imgs = await fs.readdir(filmDir);
+      imgs.forEach((imgName) => {
+        const imgPath = path.join('/gallery', film.name, imgName);
+        images.push(imgPath);
+      });
+      console.log(`loaded ${film.name} (${imgs.length} )`);
     }
-    const filmDir = path.resolve(galleryDir, film.name);
-    const imgs = await fs.readdir(filmDir);
-    imgs.forEach((imgName) => {
-      const imgPath = path.join('@site:/gallery', film.name, imgName);
-      images.push(imgPath);
-    });
   }
 
-  console.log(`loaded ${images.length} images for Gallery`);
+  console.log(`finally loaded ${images.length} images for Gallery`);
   return images;
 }
 
@@ -61,5 +53,3 @@ module.exports = {
   getLatestVersion,
   asyncLoadGallery,
 };
-
-asyncLoadGallery();

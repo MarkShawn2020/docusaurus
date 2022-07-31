@@ -9,9 +9,10 @@ import React, {useState} from 'react';
 
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import useBaseUrl from '@docusaurus/useBaseUrl';
-import Translate from '@docusaurus/Translate';
 
 import Layout from '@theme/Layout';
+
+const getFilmName = (imgPath: string): string => imgPath.split('/')[2];
 
 export default (): JSX.Element => {
   const context = useDocusaurusContext();
@@ -21,14 +22,34 @@ export default (): JSX.Element => {
 
   return (
     <Layout>
-      <Translate>click to see next random page</Translate>
       {imgs.length > 0 && (
-        <img
-          role="presentation"
-          src={useBaseUrl(imgs[index])}
-          alt={imgs[index]}
-          onClick={() => setIndex(getRandomIndex())}
-        />
+        <div style={{position: 'relative'}}>
+          <img
+            width={'100%'}
+            role="presentation"
+            src={useBaseUrl(imgs[index])}
+            alt={imgs[index]}
+            onClick={() => setIndex(getRandomIndex())}
+          />
+
+          <p
+            style={{
+              position: 'absolute',
+              top: '10px',
+              left: '10px',
+              color: 'white',
+              fontStyle: 'italic',
+              // text readable, ref: https://stackoverflow.com/a/23969012/9422455
+              textShadow: 'black 0px 0px 10px',
+              fontSize: 20,
+            }}>
+            source: {getFilmName(imgs[index])}
+          </p>
+
+          <p style={{textAlign: 'center', fontStyle: 'italic', color: 'gray'}}>
+            click the image itself to see next random page
+          </p>
+        </div>
       )}
     </Layout>
   );
