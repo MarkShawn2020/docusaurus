@@ -6,7 +6,6 @@
   "workspaces": [
     "packages/*",
     "website",
-    "my-website",
     "test-website-in-workspace",
     "packages/create-docusaurus/templates/*",
     "admin/new.docusaurus.io"
