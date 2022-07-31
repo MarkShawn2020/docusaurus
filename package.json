@@ -6,11 +6,13 @@
   "workspaces": [
     "packages/*",
     "website",
+    "my-website",
     "test-website-in-workspace",
     "packages/create-docusaurus/templates/*",
     "admin/new.docusaurus.io"
   ],
   "scripts": {
+    "build:packages": "lerna run build --no-private",
     "start": "yarn build:packages && yarn start:website",
     "start:website": "yarn workspace website start",
     "start:website:baseUrl": "yarn workspace website start:baseUrl",
@@ -18,7 +20,6 @@
     "start:website:deployPreview": "cross-env NETLIFY=true CONTEXT='deploy-preview' yarn workspace website start",
     "examples:generate": "node admin/scripts/generateExamples.js",
     "build": "yarn build:packages && yarn build:website",
-    "build:packages": "lerna run build --no-private",
     "build:website": "yarn workspace website build",
     "build:website:baseUrl": "yarn workspace website build:baseUrl",
     "build:website:blogOnly": "yarn workspace website build:blogOnly",
