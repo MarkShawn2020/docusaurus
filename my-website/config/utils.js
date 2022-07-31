@@ -6,7 +6,7 @@
  */
 
 const path = require('path');
-const fs = require('fs');
+const {promises: fs} = require('fs');
 
 const historyVersions = require('../versions.json');
 const me = require('./me');
@@ -36,36 +36,22 @@ async function asyncLoadGallery() {
   const images = [];
   const galleryDir = path.resolve(__dirname, '../static/gallery');
 
-  return new Promise((resolve, reject) => {
-    fs.readdir(galleryDir, {withFileTypes: true}, (err, films) => {
-      if (err) {
-        reject(err);
-      }
-      if (!films) {
-        return;
-      }
-      films.forEach((film) => {
-        if (film.isFile()) {
-          return;
-        }
-        const filmDir = path.resolve(galleryDir, film.name);
-        fs.readdir(filmDir, (err2, imgs) => {
-          if (err2) {
-            reject(err2);
-          }
-          if (!imgs) {
-            return;
-          }
-          imgs.forEach((imgName) => {
-            const imgPath = path.join('@site:/gallery', film.name, imgName);
-            images.push(imgPath);
-          });
-        });
-      });
+  const films = await fs.readdir(galleryDir, {withFileTypes: true});
+  for (let film of films) {
+    console.log(`fetching film of ${film.name}`);
+    if (film.isFile()) {
+      return;
+    }
+    const filmDir = path.resolve(galleryDir, film.name);
+    const imgs = await fs.readdir(filmDir);
+    imgs.forEach((imgName) => {
+      const imgPath = path.join('@site:/gallery', film.name, imgName);
+      images.push(imgPath);
     });
-    console.log(`loaded ${images.length} images for Gallery`);
-    resolve(images);
-  });
+  }
+
+  console.log(`loaded ${images.length} images for Gallery`);
+  return images;
 }
 
 module.exports = {
@@ -75,3 +61,5 @@ module.exports = {
   getLatestVersion,
   asyncLoadGallery,
 };
+
+asyncLoadGallery();
