@@ -1,7 +1,3 @@
-# mark
-packages/*/package.json
-packages/*/bin
-
 .DS_Store
 .vscode/*
 !.vscode/extensions.json
