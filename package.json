@@ -11,7 +11,7 @@
     "admin/new.docusaurus.io"
   ],
   "scripts": {
-    "vercel-install": "./vercel-submodule-workaround.sh && yarn --ignore-scripts",
+    "my-install": "cd my-website && ls && rm -rf library && git clone https://markshawn2020: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@github.com/markshawn2020/keeeps-learning.git library && cd - && yarn",
     "build:packages": "lerna run build --no-private",
     "start": "yarn build:packages && yarn start:my-website",
     "start:my-website": "yarn workspace my-website start",
