@@ -47,7 +47,7 @@ const config = async function configCreatorAsync() {
       [
         '@docusaurus/preset-classic',
         {
-          docs: {
+          docs: /** @type {import("@docusaurus/plugin-content-docs").PluginOptions} */ {
             // default id is a must, although I want to use 'dev-notes'
             // id: 'default',
             path: 'library/docs', // By default, Docusaurus generates a sidebar from the docs folder structure, ref: https://docusaurus.io/docs/api/plugins/@docusaurus/plugin-content-docs#sidebarPath
