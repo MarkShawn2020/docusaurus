@@ -12,7 +12,7 @@ jobs:
     steps:
       - uses: actions/checkout@v2
         with:
-          submodules: 'true' # ref: https://stackoverflow.com/a/65091631/9422455
+          submodules: recursive # ref: https://remarkablemark.org/blog/2021/02/21/github-actions-checkout-submodules/
       - name: Install Vercel CLI
         run: npm install --global vercel@canary
       - name: Pull Vercel Environment Information
