@@ -58,7 +58,7 @@
     "clear": "(yarn workspace website clear || echo 'Failure while running docusaurus clear') && yarn lerna exec --ignore docusaurus yarn rimraf lib",
     "test:baseUrl": "yarn build:website:baseUrl && yarn serve:website:baseUrl",
     "lock:update": "npx --yes yarn-deduplicate",
-    "run-lint-staged": "yarn lint-staged"
+    "run-lint-staged": "yarn  lint-staged"
   },
   "dependencies": {
     "unified": "^9.2.2"
