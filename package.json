@@ -11,6 +11,7 @@
     "admin/new.docusaurus.io"
   ],
   "scripts": {
+    "vercel-install": "./vercel-submodule-workaround.sh && yarn --ignore-scripts",
     "build:packages": "lerna run build --no-private",
     "start": "yarn build:packages && yarn start:my-website",
     "start:my-website": "yarn workspace my-website start",
