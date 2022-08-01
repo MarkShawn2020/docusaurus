@@ -19,6 +19,10 @@ const {
 } = require('./config/utils');
 const charMap = require('./config/data/pinyin.json');
 const me = require('./config/me');
+const {
+  getGithubRepoWebsiteUrl,
+  getGithubRepoLibraryUrl,
+} = require('@site/config/utils');
 
 const config = async function configCreatorAsync() {
   /** @type {import('@docusaurus/types').Config} */
@@ -124,6 +128,7 @@ const config = async function configCreatorAsync() {
           //     label: 'My Books'
           // },
           {to: '/blog/tags', label: 'My Blog', position: 'left'},
+
           {
             type: 'doc', // 加了这个就直接跳转到doc主页了，to就无效了
             // to: '/docs/SLAM/A01-findLights',
@@ -131,10 +136,18 @@ const config = async function configCreatorAsync() {
             position: 'left',
             label: 'My Dev Notes',
           },
+
           {to: '/gallery', label: 'Gallery', position: 'left'},
+
           {
             href: getGithubRepoUrl(),
-            label: 'Source Code',
+            label: 'Source',
+            position: 'right',
+          },
+
+          {
+            href: getGithubRepoLibraryUrl(),
+            label: 'Library',
             position: 'right',
           },
         ],

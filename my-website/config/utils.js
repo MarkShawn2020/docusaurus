@@ -14,6 +14,12 @@ const me = require('./me');
 const getGithubRepoUrl = () =>
   `https://github.com/${me.organizationName}/${me.projectName}`;
 
+const getGithubRepoWebsiteUrl = () =>
+  `https://github.com/${me.organizationName}/${me.projectWebsiteMame}`;
+
+const getGithubRepoLibraryUrl = () =>
+  `https://github.com/${me.organizationName}/${me.projectLibraryName}`;
+
 const getGithubEditUrl = () => `${getGithubRepoUrl()}/edit/master/`;
 
 async function getLatestVersion() {
@@ -49,6 +55,8 @@ async function asyncLoadGallery() {
 module.exports = {
   getGithubRepoUrl,
   getGithubEditUrl,
+  getGithubRepoWebsiteUrl,
+  getGithubRepoLibraryUrl,
   historyVersions,
   getLatestVersion,
   asyncLoadGallery,
