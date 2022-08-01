@@ -1,4 +1,4 @@
-[submodule "my-website/library"]
-	path = my-website/library
-	url = https://github.com/MarkShawn2020/keeeps-learning
+[submodule "my-website"]
+	path = my-website
+	url = https://github.com/MarkShawn2020/docusaurus-my-website
 	branch = main

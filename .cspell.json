@@ -31,8 +31,7 @@
     "*.xyz",
     "*.docx",
     "versioned_docs",
-    "*.min.*",
-    "my-website"
+    "*.min.*"
   ],
   "ignoreRegExpList": ["Email", "Urls", "#[\\w-]*"]
 }
