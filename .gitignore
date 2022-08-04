@@ -27,6 +27,7 @@ packages/docusaurus/lib/
 packages/docusaurus-*/lib/*
 packages/eslint-plugin/lib/
 packages/stylelint-copyright/lib/
+packages/mdast-util-to-hast/lib/
 
 website/netlifyDeployPreview/*
 website/changelog

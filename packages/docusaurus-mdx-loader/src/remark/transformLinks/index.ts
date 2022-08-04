@@ -9,11 +9,11 @@ import path from 'path';
 import url from 'url';
 import fs from 'fs-extra';
 import {
-  toMessageRelativeFilePath,
-  posixPath,
   escapePath,
-  getFileLoaderUtils,
   findAsyncSequential,
+  getFileLoaderUtils,
+  posixPath,
+  toMessageRelativeFilePath,
 } from '@docusaurus/utils';
 import visit from 'unist-util-visit';
 import escapeHtml from 'escape-html';
@@ -149,7 +149,9 @@ async function processLinkNode(target: Target, context: Context) {
 }
 
 export default function plugin(options: PluginOptions): Transformer {
-  return async (root, vfile) => {
+
+
+  return async (root, vfile) => {``
     const promises: Promise<void>[] = [];
     visit(root, 'link', (node: Link, index, parent) => {
       promises.push(

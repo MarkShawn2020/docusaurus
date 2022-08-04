@@ -8,10 +8,10 @@
 import fs from 'fs-extra';
 import logger from '@docusaurus/logger';
 import {
-  parseFrontMatter,
-  parseMarkdownContentTitle,
   escapePath,
   getFileLoaderUtils,
+  parseFrontMatter,
+  parseMarkdownContentTitle,
 } from '@docusaurus/utils';
 import {createCompiler} from '@mdx-js/mdx';
 import emoji from 'remark-emoji';
@@ -22,11 +22,10 @@ import toc from './remark/toc';
 import unwrapMdxCodeBlocks from './remark/unwrapMdxCodeBlocks';
 import transformImage from './remark/transformImage';
 import transformLinks from './remark/transformLinks';
-
 import transformAdmonitions from './remark/admonitions';
-import type {LoaderContext} from 'webpack';
-import type {Processor, Plugin} from 'unified';
 import type {AdmonitionOptions} from './remark/admonitions';
+import type {LoaderContext} from 'webpack';
+import type {Plugin, Processor} from 'unified';
 
 const {
   loaders: {inlineMarkdownImageFileLoader},
@@ -49,7 +48,7 @@ const DEFAULT_OPTIONS: MDXOptions = {
 const compilerCache = new Map<string | Options, [Processor, Options]>();
 
 export type MDXPlugin =
-  // eslint-disable-next-line @typescript-eslint/no-explicit-any
+// eslint-disable-next-line @typescript-eslint/no-explicit-any
   [Plugin<any[]>, any] | Plugin<any[]>;
 
 export type MDXOptions = {
@@ -68,9 +67,9 @@ export type Options = Partial<MDXOptions> & {
   removeContentTitle?: boolean;
   metadataPath?: string | ((filePath: string) => string);
   createAssets?: (metadata: {
-    frontMatter: {[key: string]: unknown};
-    metadata: {[key: string]: unknown};
-  }) => {[key: string]: unknown};
+    frontMatter: { [key: string]: unknown };
+    metadata: { [key: string]: unknown };
+  }) => { [key: string]: unknown };
   filepath: string;
 };
 
@@ -254,7 +253,7 @@ ${JSON.stringify(frontMatter, null, 2)}`;
     : undefined;
 
   const metadata = metadataJsonString
-    ? (JSON.parse(metadataJsonString) as {[key: string]: unknown})
+    ? (JSON.parse(metadataJsonString) as { [key: string]: unknown })
     : undefined;
 
   const assets =
