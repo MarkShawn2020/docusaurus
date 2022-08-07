@@ -241,6 +241,7 @@ module.exports = {
     'import/order': [
       WARNING,
       {
+        "newlines-between": "always-and-inside-groups",
         groups: [
           'builtin',
           'external',

@@ -155,8 +155,8 @@ function formatBlogPostDate(
 ): string {
   try {
     return new Intl.DateTimeFormat(locale, {
-      day: 'numeric',
-      month: 'long',
+      day: '2-digit',
+      month: '2-digit',
       year: 'numeric',
       timeZone: 'UTC',
       calendar,

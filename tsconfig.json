@@ -1,4 +1,4 @@
-{
+ {
   "compilerOptions": {
     /* Emit */
     "target": "ES2020",
@@ -57,6 +57,7 @@
     "coverage/**",
     "**/lib/**/*",
     "website/**",
+    "my-website/**",
     "**/__mocks__/**/*",
     "**/__fixtures__/**/*",
     "examples/**",

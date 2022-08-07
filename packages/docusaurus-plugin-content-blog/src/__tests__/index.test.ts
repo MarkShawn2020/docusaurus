@@ -55,6 +55,7 @@ function getI18n(locale: string): I18n {
         htmlLang: locale,
         direction: 'ltr',
         path: locale,
+        charMap: {}
       },
     },
   };

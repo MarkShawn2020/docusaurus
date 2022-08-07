@@ -7,10 +7,13 @@
 
 import path from 'path';
 import fs from 'fs-extra';
+
 import importFresh from 'import-fresh';
 import logger from '@docusaurus/logger';
 import {DEFAULT_CONFIG_FILE_NAME, findAsyncSequential} from '@docusaurus/utils';
+
 import {validateConfig} from './configValidation';
+
 import type {LoadContext} from '@docusaurus/types';
 
 async function findConfig(siteDir: string) {

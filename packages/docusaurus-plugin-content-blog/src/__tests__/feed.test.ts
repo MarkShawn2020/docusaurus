@@ -27,6 +27,7 @@ const DefaultI18N: I18n = {
       htmlLang: 'en',
       calendar: 'gregory',
       path: 'en',
+      charMap: {}
     },
   },
 };

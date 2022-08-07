@@ -5,15 +5,18 @@
   "private": true,
   "workspaces": [
     "packages/*",
-    "my-website",
-    "test-my-website-in-workspace",
     "packages/create-docusaurus/templates/*",
-    "admin/new.docusaurus.io"
+    "admin/new.docusaurus.io",
+
+    "my-website/config",
+    "my-website",
+    "test-my-website-in-workspace"
   ],
   "scripts": {
     "build:packages": "lerna run build --no-private",
     "start": "yarn build:packages && yarn start:my-website",
     "start:my-website": "yarn workspace my-website start",
+    "restart:my-website": "yarn workspace my-website restart",
     "start:my-website:baseUrl": "yarn workspace my-website start:baseUrl",
     "start:my-website:blogOnly": "yarn workspace my-website start:blogOnly",
     "start:my-website:deployPreview": "cross-env NETLIFY=true CONTEXT='deploy-preview' yarn workspace my-website start",
