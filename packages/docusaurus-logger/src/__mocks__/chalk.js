@@ -5,7 +5,7 @@
  * LICENSE file in the root directory of this source tree.
  */
 
-const chalk = require('chalk');
+const chalk = require('chalk.js');
 
 // Force coloring the output even in CI
 module.exports = new chalk.Instance({level: 3});
