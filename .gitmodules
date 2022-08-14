@@ -1,4 +1,4 @@
 [submodule "my-website"]
 	path = my-website
-	url = https://github.com/MarkShawn2020/docusaurus-my-website
+	url = https://github.com/MarkShawn2020/my-website
 	branch = main
