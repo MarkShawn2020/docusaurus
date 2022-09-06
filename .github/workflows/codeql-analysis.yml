@@ -3,11 +3,11 @@ name: CodeQL
 on:
   push:
     branches:
-      - main
+      # - main
       - docusaurus-v**
   pull_request:
     branches:
-      - main
+      # - main
       - docusaurus-v**
   schedule:
     - cron: 25 22 * * 3
