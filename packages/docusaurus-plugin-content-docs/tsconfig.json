@@ -4,6 +4,9 @@
   "compilerOptions": {
     "noEmit": false,
     "incremental": true,
+
+//    "sourceMap": true,
+
     "tsBuildInfoFile": "./lib/.tsbuildinfo",
     "rootDir": "src",
     "outDir": "lib"

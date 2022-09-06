@@ -4,6 +4,9 @@
     "noEmit": false,
     "composite": true,
     "incremental": true,
+
+//    "sourceMap": true,
+
     "tsBuildInfoFile": "./lib/.tsbuildinfo-client",
     "module": "esnext",
     "target": "esnext",
