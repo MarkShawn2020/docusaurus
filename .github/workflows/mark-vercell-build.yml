@@ -16,8 +16,7 @@ jobs:
       # ref: https://github.com/actions/checkout/issues/287#issuecomment-1315511483
       - uses: actions/checkout@v3
         with:
-          ssh-private-key: |
-            ${{ secrets.SSH_PRIVATE_KEY_SUBMODULE_1 }}
+          ssh-private-key:             ${{ secrets.SSH_PRIVATE_KEY_SUBMODULE_1 }}
           submodules: 'recursive'
 
       - name: Install Vercel CLI
