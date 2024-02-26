@@ -1,0 +1,16 @@
+.blogYearContainer {
+  columns: 1
+}
+
+@media (min-width: 576px) {
+  .blogYearContainer {
+    columns: 2
+  }
+}
+
+@media (min-width: 1200px) {
+  .blogYearContainer {
+    columns: 3
+  }
+}
+

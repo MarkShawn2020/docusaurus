@@ -12,6 +12,8 @@ import {PageMetadata} from '@docusaurus/theme-common';
 import Layout from '@theme/Layout';
 import type {ArchiveBlogPost, Props} from '@theme/BlogArchivePage';
 
+import styles from './styles.module.css';
+
 type YearProp = {
   year: string;
   posts: ArchiveBlogPost[];
@@ -22,8 +24,10 @@ function Year({year, posts}: YearProp) {
     <>
       <h3>{year}</h3>
       <ul>
-        {posts.map((post) => (
-          <li key={post.metadata.date}>
+        {posts.map((post,
+                    // in case of the same date
+                    index) => (
+          <li key={post.metadata.date + index}>
             <Link to={post.metadata.permalink}>
               {post.metadata.formattedDate} - {post.metadata.title}
             </Link>
@@ -38,13 +42,12 @@ function YearsSection({years}: {years: YearProp[]}) {
   return (
     <section className="margin-vert--lg">
       <div className="container">
-        <div className="row">
+
+          <div className={styles.blogYearContainer}>
           {years.map((_props, idx) => (
-            <div key={idx} className="col col--4 margin-vert--lg">
-              <Year {..._props} />
-            </div>
+              <Year key={idx} {..._props} />
           ))}
-        </div>
+          </div>
       </div>
     </section>
   );
@@ -74,7 +77,10 @@ export default function BlogArchive({archive}: Props): JSX.Element {
     message: 'Archive',
     description: 'The page & hero description of the blog archive page',
   });
-  const years = listPostsByYears(archive.blogPosts);
+  // 按年份逆序
+  const years = listPostsByYears(archive.blogPosts).sort((a, b) => b.year.localeCompare(a.year))
+  console.log({years})
+
   return (
     <>
       <PageMetadata title={title} description={description} />
