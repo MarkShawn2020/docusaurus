@@ -13,18 +13,19 @@ jobs:
     runs-on: ubuntu-latest
     steps:
 
+      - name: Install Vercel CLI
+        run: npm install --global vercel@canary
+
+      - name: Pull Vercel Environment Information
+        run: vercel pull --yes --environment=production --token=${{ secrets.VERCEL_TOKEN }}
+
+      # maybe we should run the above first to fetch env variables
       # ref: https://github.com/actions/checkout/issues/287#issuecomment-1315511483
       - uses: actions/checkout@v3
         with:
           ssh-key: |
             ${{ secrets.SSH_PRIVATE_KEY_SUBMODULE_1 }}
           submodules: 'recursive'
-
-      - name: Install Vercel CLI
-        run: npm install --global vercel@canary
-
-      - name: Pull Vercel Environment Information
-        run: vercel pull --yes --environment=production --token=${{ secrets.VERCEL_TOKEN }}
 
       - name: Build Project Artifacts
         run: vercel build --prod --token=${{ secrets.VERCEL_TOKEN }}
