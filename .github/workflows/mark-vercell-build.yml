@@ -12,13 +12,11 @@ jobs:
   Deploy-Production:
     runs-on: ubuntu-latest
     steps:
-      # ref: https://github.com/actions/checkout/issues/287#issuecomment-1315511483
       - name: Checkout Repo
-        uses: actions/checkout@v3
+        uses: actions/checkout@v2
         with:
-          ssh-key: |
-            ${{ secrets.SSH_PRIVATE_KEY_SUBMODULE_1 }}
-          submodules: 'recursive'
+          submodules: recursive # ref: https://remarkablemark.org/blog/2021/02/21/github-actions-checkout-submodules/
+          token: ${{ secrets.ACCESS_TOKEN }} # ref: https://github.com/actions/checkout/issues/287#issuecomment-780483104
 
       - name: Install Vercel CLI
         run: npm install --global vercel@canary
