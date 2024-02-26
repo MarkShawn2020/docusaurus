@@ -12,10 +12,16 @@ jobs:
   Deploy-Production:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v2
+
+      - uses: actions/checkout@v3
+
+      - name: Add SSH private keys for submodule repositories
+        uses: webfactory/ssh-agent@0.7.0
         with:
-          submodules: recursive # ref: https://remarkablemark.org/blog/2021/02/21/github-actions-checkout-submodules/
-          token: ${{ secrets.ACCESS_TOKEN }} # ref: https://github.com/actions/checkout/issues/287#issuecomment-780483104
+          ssh-private-key: |
+            ${{ secrets.SSH_PRIVATE_KEY_SUBMODULE_1 }}
+
+      - run: git submodule update --init --recursive --remote
 
       - name: Install Vercel CLI
         run: npm install --global vercel@canary
