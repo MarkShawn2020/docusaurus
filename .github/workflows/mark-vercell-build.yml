@@ -13,7 +13,8 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       # ref: https://github.com/actions/checkout/issues/287#issuecomment-1315511483
-      - uses: actions/checkout@v3
+      - name: Checkout Repo
+        uses: actions/checkout@v3
         with:
           ssh-key: |
             ${{ secrets.SSH_PRIVATE_KEY_SUBMODULE_1 }}
