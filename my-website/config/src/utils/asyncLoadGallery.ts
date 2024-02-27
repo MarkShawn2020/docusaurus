@@ -5,7 +5,7 @@
  * LICENSE file in the root directory of this source tree.
  */
 import path from "path";
-import {promises as fs} from "fs";
+import {promises as fs,existsSync} from "fs";
 
 /** @type {Promise<string[]>} */
 export async function asyncLoadGallery(): Promise<string[]> {
@@ -13,7 +13,7 @@ export async function asyncLoadGallery(): Promise<string[]> {
   console.log({__dirname})
   const galleryDir = path.resolve(__dirname, '../../../static/gallery');
 
-  const films = await fs.readdir(galleryDir, {withFileTypes: true});
+  const films = existsSync(galleryDir)? await fs.readdir(galleryDir, {withFileTypes: true}) : [];
   for (const film of films) {
     if (film.isDirectory()) {
       const filmDir = path.resolve(galleryDir, film.name);
