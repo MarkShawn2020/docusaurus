@@ -1,4 +1,5 @@
-[submodule "my-website"]
-	path = my-website
-	url = https://github.com/markshawn2020/my-website
+
+[submodule "my-documents"]
+	path = my-website/my-documents
+	url = https://github.com/markshawn2020/my-documents
 	branch = main
