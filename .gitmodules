@@ -6,3 +6,7 @@
 [submodule "my-website/my-documents"]
 	path = my-website/my-documents
 	url = https://github.com/markshawn2020/my-documents
+[submodule "my-website/my-documents.private"]
+	path = my-website/my-documents.private
+	url = git@github.com:markshawn2020/my-private-documents.git
+	branch = main
