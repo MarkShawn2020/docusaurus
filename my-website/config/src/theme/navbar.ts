@@ -26,7 +26,7 @@ export const fetchNavbar = async (): Promise<Navbar> => (
             /**
              * left
              */
-            {to: '/taskManager', label: 'My Tasks', position: 'left'},
+            // {to: '/taskManager', label: 'My Tasks', position: 'left'},
 
             {
                 to: '/blog/archive',
@@ -42,7 +42,7 @@ export const fetchNavbar = async (): Promise<Navbar> => (
                 label: 'My Notes',
             },
 
-            {to: '/gallery', label: 'Gallery', position: 'left'},
+            // {to: '/gallery', label: 'Gallery', position: 'left'},
 
 
             /**
