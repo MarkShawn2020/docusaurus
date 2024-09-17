@@ -567,7 +567,7 @@ const Users: User[] = [
   {
     title: 'Enarx',
     description:
-      'Open source framework for running applications in TEEs (Trusted Execution Environments) based on WebAssembly.',
+      'Open source framework for running series in TEEs (Trusted Execution Environments) based on WebAssembly.',
     preview: require('./showcase/enarx.png'),
     website: 'https://enarx.dev/',
     source: 'https://github.com/enarx/enarx.github.io',
@@ -706,7 +706,7 @@ const Users: User[] = [
   },
   {
     title: 'FoalTS',
-    description: 'Node.JS framework for building web applications',
+    description: 'Node.JS framework for building web series',
     preview: require('./showcase/foal.png'),
     website: 'https://foalts.org/',
     source: 'https://github.com/FoalTS/foal/tree/master/docs',
@@ -1115,7 +1115,7 @@ const Users: User[] = [
   {
     title: 'Meli',
     description:
-      'Platform to deploy static sites, frontend applications and hosted forms',
+      'Platform to deploy static sites, frontend series and hosted forms',
     preview: require('./showcase/meli.png'),
     website: 'https://docs.meli.sh/',
     source: 'https://github.com/getmeli/meli-docs',
@@ -1159,7 +1159,7 @@ const Users: User[] = [
   {
     title: 'Mia-Platform',
     description:
-      'The simplest way to develop and operate modern applications on Kubernetes.',
+      'The simplest way to develop and operate modern series on Kubernetes.',
     preview: require('./showcase/mia-platform.png'),
     website: 'https://docs.mia-platform.eu/',
     source: null,
@@ -1279,7 +1279,7 @@ const Users: User[] = [
   {
     title: 'Nocalhost',
     description:
-      'An open-source toolsets help to build cloud-native applications easier and faster.',
+      'An open-source toolsets help to build cloud-native series easier and faster.',
     preview: require('./showcase/nocalhost.png'),
     website: 'https://nocalhost.dev/',
     source: 'https://github.com/nocalhost/nocalhost.github.io',
@@ -1580,7 +1580,7 @@ const Users: User[] = [
   {
     title: 'Rivalis',
     description:
-      'An open source framework for developing servers for real-time applications and games',
+      'An open source framework for developing servers for real-time series and games',
     preview: require('./showcase/rivalis.png'),
     website: 'https://rivalis.io',
     source: 'https://github.com/rivalis/rivalis.github.io',
@@ -1633,7 +1633,7 @@ const Users: User[] = [
   {
     title: 'React Native Boilerplate',
     description:
-      'A template for building solid applications with separation of concerns between UI, state management, and business logic.',
+      'A template for building solid series with separation of concerns between UI, state management, and business logic.',
     preview: require('./showcase/reactnativeboilerplate.png'),
     website: 'https://thecodingmachine.github.io/react-native-boilerplate/',
     source:
@@ -1713,7 +1713,7 @@ const Users: User[] = [
   {
     title: 'Realtime Web Applications Workshop',
     description:
-      'A workshop about building realtime web applications with WebSockets and WebRTC.',
+      'A workshop about building realtime web series with WebSockets and WebRTC.',
     preview: require('./showcase/realtime-apps-workshop.png'),
     website: 'https://realtime-apps-iap.github.io',
     source: 'https://github.com/realtime-apps-iap/realtime-apps-iap.github.io',
@@ -1764,7 +1764,7 @@ const Users: User[] = [
   {
     title: 'Refine',
     description:
-      'A React-based framework for building data-intensive applications in no time!',
+      'A React-based framework for building data-intensive series in no time!',
     preview: require('./showcase/refine.png'),
     website: 'https://refine.dev',
     source: 'https://github.com/pankod/refine/tree/master/documentation',
@@ -1881,7 +1881,7 @@ const Users: User[] = [
   {
     title: 'SAP Cloud SDK',
     description:
-      'The one-stop shop for developing and extending SAP applications in the cloud.',
+      'The one-stop shop for developing and extending SAP series in the cloud.',
     preview: require('./showcase/sapcloudsdk.png'),
     website: 'https://sap.github.io/cloud-sdk/',
     source: 'https://github.com/SAP/cloud-sdk',
@@ -1922,9 +1922,9 @@ const Users: User[] = [
     tags: ['opensource', 'versioning'],
   },
   {
-    title: 'SeaQL - Building data intensive applications in Rust',
+    title: 'SeaQL - Building data intensive series in Rust',
     description:
-      'We help developers in building data intensive applications in Rust, such as web services, command line tools or apps.',
+      'We help developers in building data intensive series in Rust, such as web services, command line tools or apps.',
     preview: require('./showcase/SeaQL-blog.png'),
     website: 'https://www.sea-ql.org/blog/',
     source: 'https://github.com/SeaQL/seaql.github.io/tree/master/Blog',
@@ -1949,7 +1949,7 @@ const Users: User[] = [
   },
   {
     title: 'SICOPE Model',
-    description: 'An open source model-based testing tool for web applications',
+    description: 'An open source model-based testing tool for web series',
     preview: require('./showcase/sicope-model.png'),
     website: 'https://sicope-model.github.io/',
     source: 'https://github.com/sicope-model/sicope-model-website',
@@ -2375,7 +2375,7 @@ const Users: User[] = [
   {
     title: 'Webiny',
     description:
-      'Serverless application framework and CMS for building full-stack applications, GraphQL APIs, websites & microservices.',
+      'Serverless application framework and CMS for building full-stack series, GraphQL APIs, websites & microservices.',
     preview: require('./showcase/webiny.png'),
     website: 'https://www.webiny.com/docs/',
     source: 'https://github.com/webiny/docs.webiny.com',
@@ -2409,7 +2409,7 @@ const Users: User[] = [
   {
     title: 'Zowe',
     description:
-      'Open source framework for leveraging data and applications in z/OS',
+      'Open source framework for leveraging data and series in z/OS',
     preview: require('./showcase/zowe.png'),
     website: 'https://docs.zowe.org',
     source: 'https://github.com/zowe/docs-site',
@@ -2625,7 +2625,7 @@ const Users: User[] = [
   },
   {
     title: 'Neo Blockchain Developer Portal',
-    description: 'A collection of tools and resources to help you build outstanding applications on Neo',
+    description: 'A collection of tools and resources to help you build outstanding series on Neo',
     preview: null,
     website: 'https://developers.neo.org/',
     source: 'https://github.com/neo-project/neo-dev-portal',
